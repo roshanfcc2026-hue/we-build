@@ -1,0 +1,14 @@
+/* Main site palette taken from the Grain Studio trade template. */
+body:not(.in-template){--studio-paper:#f4ece3;--studio-ink:#3f302c;--studio-accent:#a8442c;background:var(--studio-paper);color:var(--studio-ink)}
+.masthead,.collection{background:#f4ece3;border-color:#ddc9bb}.masthead .connect-nav{border-color:#d5bcaa}.masthead .logo,.card-meta h3{color:#3f302c}
+.search{background:#fffaf5;border-color:#d5bcaa}.search input{color:#3f302c}.collection sup{background:#e9d7c8;color:#3f302c}
+.results,.card-meta small,.card-meta>.explore{color:#796158}.filters button{color:#6e5247;border-color:#d2b8a5}.filters .active{background:#a8442c;border-color:#a8442c;color:#fff}.filters button:hover:not(.active){background:#eedccc}
+.collection-more button{color:#3f302c;border-color:#b0927d}.collection-more button:hover{background:#eedccc}
+.motion-hero{background:#f4ece3;color:#3f302c}.motion-hero:before{background:linear-gradient(90deg,rgba(244,236,227,.98),rgba(244,236,227,.94) 22%,rgba(244,236,227,.65) 39%,rgba(244,236,227,0) 64%)}
+.motion-hero-copy>p:not(.eyebrow),.motion-hero .eyebrow,.motion-caption>span{color:#6e5247}.motion-hero-copy h1 span{color:#a8442c}.hero-explore{background:#a8442c;border-color:#a8442c;color:#fff}.hero-explore:hover{background:#84311f}.motion-caption button{background:#f4ece3ed;color:#3f302c;border-color:#d5bcaa}
+.site-footer{background:#3f302c;color:#f4ece3}.connect-section .eyebrow,.contact-label,.contact-note>span,.footer-bottom>span{color:#e9cbbc}.connect-section h2 span{color:#e49b7d}.connect-section>div>p:not(.eyebrow),.contact-note p,.footer-bottom>div{color:#e4cfc3}
+.connect-details,.contact-note,.footer-bottom,.callback-form{border-color:#805f50}.contact-action,.callback-form button{background:#edb297;color:#562719}.contact-action:hover,.callback-form button:hover{background:#f9cdb7}
+.callback-form>p,.callback-form label span,.callback-form .callback-note{color:#e4cfc3}.callback-form input,.callback-form textarea{background:#fff6ec;color:#3f302c;border-color:#c7a18a}.callback-form input::placeholder,.callback-form textarea::placeholder{color:#876858}.callback-form :focus-visible{outline-color:#edb297}
+body:not(.in-template) :focus-visible{outline-color:#a8442c}.site-footer :focus-visible{outline-color:#edb297!important}
+body:not(.in-template) .about-grid article,body:not(.in-template) .demo-note{border-color:#ddc9bb}.about-lead,.about-grid p{color:#796158}.about .plain-button{color:#fff;background:#a8442c;border-color:#a8442c}
+@media(max-width:650px){.motion-hero:before{background:linear-gradient(0deg,#f4ece3 0%,#f4ece3 45%,#f4ece300 75%)}}
