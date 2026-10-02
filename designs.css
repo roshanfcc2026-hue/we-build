@@ -1,3 +1,18 @@
+/* Formwork: calm architectural cover, with room for the headline. */
+.design-stage.shape-architect{grid-template-columns:1.2fr 1fr;grid-template-rows:auto auto minmax(250px,1fr) auto;gap:26px;background:#eeeae2}
+.shape-architect .ds-label{grid-area:1/1/2/3}
+.shape-architect .ds-title{grid-area:2/1/3/3;max-width:1000px}
+.shape-architect .ds-title br{display:none}
+.shape-architect .ds-photo{grid-area:3/1/4/3;min-height:250px;clip-path:none}
+.shape-architect .ds-description{grid-area:4/1;align-self:start}
+.shape-architect .ds-directory{grid-area:4/2;display:flex;flex-direction:column;gap:12px;align-self:start}
+.shape-architect .ds-directory :is(span,button){padding-top:12px}
+.design-stage.is-preview.shape-architect{grid-template-rows:auto auto minmax(85px,1fr) auto;gap:12px}
+.is-preview.shape-architect .ds-title h3{font-size:7.8cqw;line-height:1.08}
+.is-preview.shape-architect .ds-photo{min-height:85px}
+.is-preview.shape-architect .ds-description{grid-column:1/-1}
+.is-preview.shape-architect .ds-action{padding:.7em 1.1em}
+.is-preview.shape-architect .ds-directory{display:none}
 /* Shared components; intentionally different spatial compositions. */
 .design-preview,.template.bespoke{container-type:inline-size;background:var(--bg);color:var(--fg)}
 .design-preview{border-radius:5px;overflow:hidden;border:1px solid color-mix(in srgb,var(--fg) 12%,transparent)}

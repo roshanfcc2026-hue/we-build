@@ -2,7 +2,7 @@
 const DESIGNS={
  earthworks:['field','ledger','SITE OPERATIONS','Plan. Prepare. Break ground.'],
  concrete:['poster','dashboard','POUR / PLACE / FINISH','Concrete, without compromise.'],
- formwork:['blueprint','ledger','SYSTEMS & SEQUENCING','A framework for every pour.'],
+ formwork:['architect','ledger','SYSTEMS & SEQUENCING','A framework for every pour.'],
  reinforcement:['console','dashboard','REINFORCEMENT SCHEDULE','Precision in every connection.'],
  masonry:['journal','editorial','THE MASONRY JOURNAL','Texture. Bond. Detail.'],
  steelwork:['frame','ledger','STRUCTURAL ASSEMBLY','From drawing to skyline.'],
